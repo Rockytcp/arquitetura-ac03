@@ -93,7 +93,7 @@ class Testes(TestCase):
     
 calculador = Calculadora()
 calcular = calculador.calcular(5,5, 'soma')
-print(calcular)
+print("RESULTADO:", calcular)
 
 if __name__ == '__main__':
     main()
