@@ -92,8 +92,8 @@ class Testes(TestCase):
 
     
 calculador = Calculadora()
-operacao = calculador.calcular(5,5, 'soma')
-print(operacao)
+calcular = calculador.calcular(5,5, 'soma')
+print(calcular)
 
 if __name__ == '__main__':
     main()
